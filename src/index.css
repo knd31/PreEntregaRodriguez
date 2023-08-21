@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blanchedalmond;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+button{
+  background-color: rgb(228, 216, 201);
+  margin: 5px;
+}
+h3{
+  text-align: center;
+  color: cadetblue;
 }
