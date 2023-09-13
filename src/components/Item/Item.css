@@ -1,0 +1,15 @@
+.CardItem{
+     width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; 
+ 
+    Justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+
+}
+

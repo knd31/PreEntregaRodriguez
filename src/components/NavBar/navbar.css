@@ -1,0 +1,16 @@
+ nav{
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+        margin-right: 10px; 
+        word-spacing: 2px;
+        display: inline;
+} 
+
+
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }

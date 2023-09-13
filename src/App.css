@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  justify-content: center;
+}
+.CardItem{
+  text-align: center;
+  justify-content: center;
 }
 
 .App-logo {

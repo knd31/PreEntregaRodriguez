@@ -1,0 +1,22 @@
+/* .Counter{
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+} */
+
+.Counter {
+    display: grid;
+    place-items: center;
+    top: auto;
+  }
+  .Controls {
+    margin: auto;
+  }
+
+.Button{
+        height: 20px;
+        width: 20px;
+        background: #ffff99;
+        position: relative;
+        
+}
