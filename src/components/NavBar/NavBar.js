@@ -12,7 +12,10 @@ const Navbar = () => {
         <NavLink to={`/category/tablet`} > Tablet </NavLink>
         <NavLink to={`/category/computadoras`}> Computadoras </NavLink>
        </div>
+       <div id="cart">
        <Card/>
+       </div>
+       
      </nav>
   )
 }

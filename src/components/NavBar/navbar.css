@@ -14,3 +14,9 @@
         box-sizing: border-box;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       }
+
+#cart{
+        position: absolute;
+        right: 100px;
+        top: 5px;
+}
