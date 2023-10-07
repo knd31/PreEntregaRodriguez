@@ -1,0 +1,11 @@
+.div1{
+    
+    flex: auto;
+    align-items:center ;
+    display: flex;
+  justify-content: space-between;
+}
+
+.button1{
+    color: red;
+}
