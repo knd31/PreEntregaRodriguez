@@ -5,9 +5,10 @@ import Cart from "./components/Cart/Cart"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { CartProvider } from "./context/CartContext";
-
+import CheckOut from "./components/CheckOut/CheckOut";
 
 function App() {
+   
   return (
     <div className="App">
       <CartProvider>
@@ -19,6 +20,7 @@ function App() {
         <Route path= '/item/:itemId' element={<ItemDetailCountainer/>}/>
         <Route path= '*' element={<h1>404 NOT FOUND</h1>}/>
         <Route path='/cart' element={<Cart/>}></Route>
+        <Route path='/checkout' element={<CheckOut/>}></Route>
       </Routes>
       </BrowserRouter>
       </CartProvider>

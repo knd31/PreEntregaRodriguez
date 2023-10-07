@@ -6,7 +6,7 @@ import CartItem from "../CartItem/CartItem"
 
 
 const Cart = () => {
-    const { cart, clear, total } = useContext(CartContext)
+    const { cart, clearCart, total } = useContext(CartContext)
     return (
         <div>
             {cart.length
@@ -14,8 +14,8 @@ const Cart = () => {
                {cart.map((item) =><CartItem key={item.id} item={item}/>)}
                      <h1>Total a pagar: ${total()}</h1>
                     <div>
-                        <button onClick={clear}> Vaciar carrito</button>
-                        <Link> Terminar compra</Link>
+                        <button onClick={clearCart}> Vaciar carrito</button>
+                        <Link to='/checkout'> Terminar compra</Link>
                     </div> 
             </div>
             : <div>

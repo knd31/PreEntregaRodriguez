@@ -1,16 +1,16 @@
-const products =[
-    {
-        id:'1',
-        name:'Iphone 12',
-        price: 2259999,
-        category: 'celular',
-        img:'../img/producto/iphone.jpg',
-        stock: 10,
-        description:'Almacenamiento de 256 GB'
-    },
+ export const products =[
+    // {
+    //     id:'1',
+    //     name:'Iphone 12',
+    //     price: 2259999,
+    //     category: 'celular',
+    //     img:'../img/producto/iphone.jpg',
+    //     stock: 10,
+    //     description:'Almacenamiento de 256 GB'
+    // },
 
     {
-        id:'2',
+       // id:'2',
         name:'S23 Ultra',
         price: 779999,
         category: 'celular',
@@ -19,7 +19,7 @@ const products =[
         description:'Memoria RAM 8/12 GB, Memoria interna 256/512 GB'
     },
     {
-        id:'3',
+       // id:'3',
         name:'Z Fold 5',
         price: 1129999,
         category: 'celular',
@@ -28,7 +28,7 @@ const products =[
         description:'Cuenta con un almacenamiento interno de 256GB y 12GB de RAM '
     },
     {
-        id:'4',
+        //id:'4',
         name:'S6 lite',
         price: 350000,
         category: 'tablet',
@@ -37,7 +37,7 @@ const products =[
         description:'Cuenta con un almacenamiento interno de 128GB, Buena duracion de bateria '
     },
     {
-        id:'5',
+       // id:'5',
         name:'S9 plus',
         price: 899999,
         category: 'tablet',
@@ -46,7 +46,7 @@ const products =[
         description:'Cuenta con un almacenamiento interno de 256GB, Camara trasera de 50MP '
     },
     {
-        id:'6',
+        //id:'6',
         name:'Book3',
         price: 700000,
         category:'computadoras',
