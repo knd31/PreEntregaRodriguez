@@ -2,7 +2,7 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore"
 import { useState, useContext } from "react"
 import "./check.css"
 import { CartContext } from "../../context/CartContext"
-import { db } from "../../firebase/firebase"
+import { db } from "../../Servicios/config"
 
 const CheckOut = () => {
     const [user, setUser] = useState({})
@@ -22,15 +22,15 @@ const CheckOut = () => {
         } else if (!cart || cart.length === 0) {
             alert('El carrito está vacío');
         } else {
-            const orders = {
+
+            let orders = {
                 user,
                 item: cart,
                 total: total(),
                 date: serverTimestamp()
             }
-             const venta = collection(db, "orders")
-            //  addDoc(venta, order)
-            addDoc(venta,orders)
+            const venta = collection(db, "orders")
+            addDoc(venta, orders)
                  .then(res => {
                      setOrderId(res.itemId)
                      clearCart()

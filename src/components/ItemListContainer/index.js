@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react"
 import ItemList from '../ItemList/ItemList'
 import { useParams } from "react-router-dom"
-import { collection, getDocs, query, where } from "firebase/firestore"
-import { db } from "../../firebase/firebase"
+import { collection, getDocs, query, where} from "firebase/firestore"
+import {db} from "../../Servicios/config"
+
 
 const Item = ({ greeting }) => {
     const [products, setProducts] = useState([])
@@ -17,7 +18,7 @@ const Item = ({ greeting }) => {
                     id: product.id,
                     ...product.data()
                 }
-            })
+     })
             setProducts(list)
         })
         .catch ((error) =>console.log(error))
